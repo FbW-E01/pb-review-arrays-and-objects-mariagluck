@@ -39,7 +39,7 @@ const arrayOfObjects = [
 // 7. Create an object that contains three properties: a string, an array and an object. Invent your own property names and values.
 
 const myObject = {
-    title: " I'd Rather Go Blind",
+    title: "I'd Rather Go Blind",
     songwriters: [
         "Etta James", 
         "Ellington Jordan", 
@@ -50,7 +50,7 @@ const myObject = {
 
 // 8. Print the `type` of a variable that has an array value.
 
-// typeof array will print object. If we ask if a variable is an array:
+// typeof array will print object. If we ask if a variable is an array will print a boolean: true or false:
 console.log(Array.isArray(myArray)); //it prints: true
 
 // 9. Print the `type` of a variable that has an object value. 
