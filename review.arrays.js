@@ -68,6 +68,11 @@ const arrayOfFive = [
 ]
 console.log(arrayOfFive); //it prints , e.g. [ 46, 63, 27, 54, 91 ]
 
+//or save it in a variable like this
+const randomNum =  Math.floor(Math.random() * 101);
+const arrayOfFives = [randomNum, randomNum, randomNum, randomNum,randomNum];
+console.log(arrayOfFives); // [ 34, 34, 34, 34, 34 ]
+
 // 10.1. Add one value to the end of the array.
 
 arrayOfFive.push(57);
